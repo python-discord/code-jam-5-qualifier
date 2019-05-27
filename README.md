@@ -20,7 +20,7 @@ For this code jam, we have provided you with the signature and docstring for a p
 ## Automated testing
 There are two files provided in this qualifier. 
 * `qualifier.py` contains the actual task, and this is where you will write all of your code.
-* `tests.py` contains tests that will verify whether or not you've completed the qualifier, and whether you've completed all the bonus criterea. You will need to run this file and copypaste its output into the Code Jam Signup after you've written your code. It might also be helpful to run this in order to see how you're doing, especially if working through the bonus criterea. Please don't modify this file.
+* `tests.py` contains tests that will verify whether or not you've completed the qualifier, and whether you've completed all the bonus criterea. You will need to run this file and copy-paste its output into the Code Jam Signup after you've written your code. It might also be helpful to run this in order to see how you're doing, especially if working through the bonus criterea. Please don't modify this file.
 
 First finish writing all the code you need to solve this problem in `qualifier.py`, and then run `tests.py` from the same folder. We will need you to copy the output that `tests.py` generates as well as all the code you wrote in `qualifier.py` into your code jam application.
 
