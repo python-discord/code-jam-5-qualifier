@@ -4,7 +4,7 @@ def generate_password(
         password_length: int = 8,
         has_symbols: bool = False,
         has_uppercase: bool = False
-):
+) -> str:
     """Generates a random password.
 
     The password will be exactly `password_length` characters.
