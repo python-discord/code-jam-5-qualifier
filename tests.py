@@ -12,6 +12,9 @@ t = timeit.Timer(
 
 complete_time = t.timeit(1)
 
+# Test if the function returns a string
+returns_string = isinstance(generate_password(4), str)
+
 # Test if it returns a password of the correct length
 correct_length = len(generate_password(8)) == 8 and len(generate_password(162)) == 162
 
@@ -114,7 +117,8 @@ else:
 
 # Summary
 basics = (
-    correct_length
+    returns_string
+    and correct_length
     and random_password
     and has_symbols
     and has_uppercase
@@ -128,6 +132,7 @@ advanced = (
 )
 
 all_tests = (
+    returns_string,
     correct_length,
     random_password,
     has_symbols,

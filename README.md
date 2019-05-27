@@ -2,6 +2,7 @@
 For this code jam, we have provided you with the signature and docstring for a password generator function, and you must write the function body.
 
 **The function must fulfill the following criteria to qualify you for the Code Jam:**
+* Must return a string.
 * Must generate a random password.
 * The password must be exactly `password_length` characters long.
 * If `has_symbols` is True, the password must contain at least one symbol, such as `#`, `!`, or `@`.
