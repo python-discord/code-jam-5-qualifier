@@ -52,6 +52,12 @@ try:
 except Exception as e:
     raises_user_warning = isinstance(e, UserWarning)
 
+# Returns a string
+if returns_string:
+    print("+ The function returns a string.")
+else:
+    print("- The function does not return a string.")
+
 # Generates a password of correct length
 if correct_length:
     print("+ The password generated was the correct length.")
