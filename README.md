@@ -1,13 +1,13 @@
 # Code Jam 5 Qualifier
 For this code jam, we have provided you with the signature and docstring for a password generator function, and you must write the function body.
 
-**The function must fulfill the following criterea to qualify you for the Code Jam:**
+**The function must fulfill the following criteria to qualify you for the Code Jam:**
 * Must generate a random password.
 * The password must be exactly `password_length` characters long.
 * If `has_symbols` is True, the password must contain at least one symbol, such as `#`, `!`, or `@`.
 * If `has_uppercase` is True, the password must contain at least one uppercase letter.
 
-**The following criterea are optional, but will net you extra points:**
+**The following criteria are optional, but will net you extra points:**
 * The generator should support `password_length` < 1 000 000 characters.
 * The generator should not take more than 5 seconds to finish.
 * Update the function signature to take two more optional parameters, `ignored_chars` and `allowed_chars`. 
