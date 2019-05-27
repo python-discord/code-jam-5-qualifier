@@ -8,7 +8,7 @@ For this code jam, we have provided you with the signature and docstring for a p
 * If `has_uppercase` is True, the password must contain at least one uppercase letter.
 
 **The following criterea are optional, but will net you extra points:**
-* The generator should support `password_length` >= 1 000 000 characters.
+* The generator should support `password_length` < 1 000 000 characters.
 * The generator should not take more than 5 seconds to finish.
 * Update the function signature to take two more optional parameters, `ignored_chars` and `allowed_chars`. 
   - The user can provide a list in either of these parameters to control which characters will be used to build the password.
